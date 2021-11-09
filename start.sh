@@ -5,3 +5,7 @@ echo "Install Brew"
 
 brew update
 brew bundle
+
+# remove code sign so apps can use OBS virtual camera as webcam
+sudo codesign --remove-signature "/Applications/Amazon Chime.app"
+sudo codesign --remove-signature "/Applications/Microsoft Teams.app"
