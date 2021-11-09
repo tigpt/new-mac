@@ -14,6 +14,7 @@ cask "obs"
 cask "transmit"
 cask "imageoptim"
 cask "amazon-chime"
+cask "mongodb-compass"
 
 # Apple
 mas "Numbers", id: 409203825
