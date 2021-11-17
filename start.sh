@@ -10,4 +10,9 @@ brew bundle
 sudo codesign --remove-signature "/Applications/Amazon Chime.app"
 sudo codesign --remove-signature "/Applications/Microsoft Teams.app"
 
-echo "Please run 'github-keygen tigpt' to generate your new key"
+echo "gen ssh key"
+github-keygen tigpt
+
+echo config ssh key in github"
+gh auth login
+
