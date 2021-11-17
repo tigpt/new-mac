@@ -8,7 +8,6 @@ brew "gh"
 brew "jq"
 brew "mas"
 brew "node"
-cask "blackhole-16ch"
 cask "nova"
 cask "obs"
 cask "transmit"
@@ -38,4 +37,7 @@ mas "Things 3", id: 904280696
 mas "Xcode", id: 497799835
 
 # Install docker at the end, as it require root password
-ask "docker"
+cask "docker"
+
+# Install blackhole at the end as it require root password 
+cask "blackhole-16ch"
