@@ -8,7 +8,6 @@ brew "jq"
 brew "mas"
 brew "node"
 cask "blackhole-16ch"
-cask "docker"
 cask "nova"
 cask "obs"
 cask "transmit"
@@ -35,3 +34,6 @@ mas "Agenda", id: 1287445660
 
 # Xcode as last to not lock PC for hours
 mas "Xcode", id: 497799835
+
+# Install docker at the end, as it require root password
+ask "docker"
