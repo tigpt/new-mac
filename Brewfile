@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "github-keygen"
 brew "awscli"
 brew "curl"
 brew "gh"
