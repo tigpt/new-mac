@@ -31,6 +31,7 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Pluralsight", id: 431748264
 mas "Telegram", id: 747648890
 mas "Agenda", id: 1287445660
+mas "Things 3", id: 904280696
 
 # Xcode as last to not lock PC for hours
 mas "Xcode", id: 497799835
