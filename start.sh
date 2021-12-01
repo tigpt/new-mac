@@ -12,3 +12,13 @@ brew bundle
 # remove code sign so apps can use OBS virtual camera as webcam
 sudo codesign --remove-signature "/Applications/Amazon Chime.app"
 sudo codesign --remove-signature "/Applications/Microsoft Teams.app"
+<<<<<<< HEAD
+=======
+
+echo "gen ssh key"
+github-keygen tigpt
+
+echo config ssh key in github"
+gh auth login
+
+>>>>>>> b0b38ad8459d2e107462e96a9b2fbb9f781b0e18

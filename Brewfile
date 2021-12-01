@@ -1,14 +1,13 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "github-keygen"
 brew "awscli"
 brew "curl"
 brew "gh"
 brew "jq"
 brew "mas"
 brew "node"
-cask "blackhole-16ch"
-cask "docker"
 cask "nova"
 cask "obs"
 cask "transmit"
@@ -32,6 +31,13 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Pluralsight", id: 431748264
 mas "Telegram", id: 747648890
 mas "Agenda", id: 1287445660
+mas "Things 3", id: 904280696
 
 # Xcode as last to not lock PC for hours
 mas "Xcode", id: 497799835
+
+# Install docker at the end, as it require root password
+cask "docker"
+
+# Install blackhole at the end as it require root password 
+cask "blackhole-16ch"
