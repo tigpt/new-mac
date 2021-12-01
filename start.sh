@@ -1,3 +1,6 @@
+echo "hide all icons on desktop"
+defaults write com.apple.finder CreateDesktop false && killall Finder
+
 xcode-select --install 
 
 echo "Install Brew"
