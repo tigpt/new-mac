@@ -16,5 +16,5 @@ sudo codesign --remove-signature "/Applications/Microsoft Teams.app"
 echo "gen ssh key"
 github-keygen tigpt
 
-echo config ssh key in github"
+echo "config ssh key in github"
 gh auth login
